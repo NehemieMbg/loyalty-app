@@ -33,12 +33,13 @@
   font-size: 6rem;
   font-weight: 500;
   line-height: 1;
-  margin-bottom: 2rem;
+  //   margin-bottom: 0.rem;
   width: 100%;
   grid-row: 2 / 3;
 }
 
 .hero-text {
   color: $color-white;
+  font-weight: 200;
   grid-row: 3 / 4;
 }
