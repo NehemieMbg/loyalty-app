@@ -1,0 +1,126 @@
+@import "./../../../../sass/variables";
+
+.navbar {
+  margin: 0 auto;
+  background-color: $color-white;
+}
+
+.navbar-container {
+  position: relative;
+  color: $color-black;
+  max-width: 149.7rem;
+  margin: 0 auto;
+  padding: 0 5.5vw;
+  display: grid;
+  grid-template-columns: 1fr minmax(min-content, max-content) 1fr;
+  grid-template-rows: 8rem;
+  // background-color: white;
+
+  align-items: center;
+
+  .logo {
+    font-size: 2rem;
+    font-weight: 400;
+    justify-self: start;
+
+    a:link,
+    a:visited {
+      text-decoration: none;
+      color: $color-black;
+    }
+  }
+
+  .nav-list {
+    list-style: none;
+    display: grid;
+
+    grid-template-columns: repeat(4, max-content);
+    gap: 3.5rem;
+
+    &__link {
+      justify-self: center;
+    }
+
+    &__link a:link,
+    &__link a:visited {
+      text-decoration: none;
+      color: $color-black;
+    }
+
+    &__link a:active,
+    &__link a:hover {
+      color: $color-primary-dark;
+      transition: all 0.2s;
+    }
+
+    &__link a {
+      position: relative;
+    }
+  }
+
+  .user-icon {
+    height: 2.2rem;
+    width: 2.8rem;
+
+    &:hover {
+      color: $color-primary-dark;
+    }
+  }
+
+  .vl {
+    height: 2.7rem;
+    border-left: 0.1rem solid $color-black;
+  }
+
+  .menu {
+    justify-self: end;
+    display: flex;
+    align-items: center;
+    gap: 2.5rem;
+    cursor: pointer;
+
+    &-btn {
+      display: flex;
+      align-items: center;
+      gap: 1.5rem;
+
+      &:hover {
+        color: $color-primary-dark;
+        transition: all 0.2s;
+      }
+    }
+  }
+
+  .menu-logo {
+    background-color: $color-black;
+    height: 0.08rem;
+    width: 2.4rem;
+    display: block;
+    position: relative;
+  }
+
+  .menu-logo::before,
+  .menu-logo::after {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 2.4rem;
+    height: 0.08rem;
+    background-color: $color-black;
+  }
+
+  .menu-btn:hover .menu-logo::before,
+  .menu-btn:hover .menu-logo::after,
+  .menu-btn:hover .menu-logo {
+    background-color: $color-primary-dark;
+    transition: all 0.2s;
+  }
+
+  .menu-logo::before {
+    transform: translateY(-0.7rem);
+  }
+
+  .menu-logo::after {
+    transform: translateY(0.7rem);
+  }
+}
