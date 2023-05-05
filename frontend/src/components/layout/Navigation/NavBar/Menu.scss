@@ -1,0 +1,163 @@
+@import "./../../../../sass/variables";
+
+.menu-container {
+  position: fixed;
+  z-index: 5;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  background-image: linear-gradient(
+    rgba($color-black, 0.8),
+    rgba($color-black, 0.8)
+  );
+
+  .close-btn__container {
+    position: absolute;
+    top: 4rem;
+    left: -9rem;
+  }
+
+  .close-btn {
+    width: 5rem;
+    height: 5rem;
+
+    border: 0.19rem solid $color-white;
+    border-radius: 0.5rem;
+    cursor: pointer;
+
+    &::before,
+    &::after {
+      content: "";
+      position: absolute;
+      width: 0.1rem;
+      height: 2.5rem;
+      background-color: $color-white;
+      transform: translate(-50%, -50%);
+      top: 1.4rem;
+      left: 50%;
+    }
+
+    &::before {
+      transform: rotate(45deg);
+    }
+
+    &::after {
+      transform: rotate(-45deg);
+    }
+  }
+
+  // Changes Close Btn Color
+  .close-btn__container,
+  .close-btn {
+    transition: all 0.5s;
+  }
+
+  .close-btn__container .close-btn:hover {
+    border-color: $color-primary-dark;
+
+    &::before,
+    &::after {
+      background-color: $color-primary-dark;
+    }
+  }
+
+  .close-btn__container .close-btn:hover,
+  .close-btn__container .close-btn:hover::before,
+  .close-btn__container .close-btn:hover::after {
+    transition: all 0.5s;
+  }
+
+  .menu-visible {
+    position: fixed;
+    width: 33.333337vw;
+    height: 100vh;
+    top: 0;
+    right: 0;
+    z-index: 10;
+    transition: all 0.8s;
+
+    background-color: $color-white;
+
+    &__list {
+      margin-top: 14rem;
+      font-size: 2.4rem;
+      display: grid;
+      grid-template-columns: max-content;
+      list-style: none;
+      grid-template-rows: repeat(7, max-content);
+      gap: 2rem;
+
+      &-link {
+        padding-left: 4rem;
+
+        a {
+          list-style: none;
+          text-decoration: none;
+          transition: all 0.5s;
+        }
+
+        a:visited,
+        a:link {
+          color: $color-black;
+        }
+
+        a:hover {
+          color: $color-primary-dark;
+          transition: all 0.5s;
+        }
+
+        .menu-item a {
+          justify-self: end;
+        }
+      }
+    }
+  }
+}
+
+// When Menu Closed
+.menu-hidden {
+  visibility: hidden;
+
+  .close-btn__container {
+    position: absolute;
+    top: 0rem;
+    left: 0rem;
+  }
+
+  // Changes Close Btn Color
+
+  .menu-visible {
+    position: fixed;
+    width: 0vw;
+    height: 100vh;
+    top: 0;
+    right: -2rem;
+    z-index: 10;
+    transition: all 0.5s;
+
+    background-color: $color-white;
+
+    &__list {
+      margin-top: 14rem;
+      font-size: 2.4rem;
+      display: grid;
+      grid-template-columns: max-content;
+      list-style: none;
+      gap: 2rem;
+
+      &-link {
+        padding-left: 4rem;
+
+        a {
+          list-style: none;
+          text-decoration: none;
+        }
+
+        a:visited,
+        a:link {
+          color: $color-black;
+        }
+      }
+    }
+  }
+}

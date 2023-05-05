@@ -1,0 +1,46 @@
+@import "./../../../../../sass/variables";
+
+.hero-section {
+  // position: absolute;
+  // z-index: -1;
+  background-image: url("../../../../../images/7574737.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  top: 0;
+  height: 75vh;
+  width: 100%;
+  margin-bottom: 6rem;
+}
+
+.hero-text__container {
+  margin: 0 auto;
+  max-width: 149.7rem;
+  height: 97%;
+  display: grid;
+  grid-template-columns: 1fr minmax(max-content, max-content) minmax(
+      max-content,
+      max-content
+    );
+  grid-template-rows: 1fr minmax(max-content, max-content) minmax(
+      max-content,
+      max-content
+    );
+  padding: 0 5.5rem;
+}
+
+.hero-heading {
+  color: $color-white;
+  font-size: 6rem;
+  font-weight: 400;
+  line-height: 1;
+  //   margin-bottom: 0.rem;
+  width: 100%;
+  grid-row: 2 / 3;
+}
+
+.hero-text {
+  color: $color-white;
+  font-weight: 200;
+  grid-row: 3 / 4;
+}

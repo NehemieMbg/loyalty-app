@@ -1,0 +1,24 @@
+@import "../../../../sass/variables";
+
+.about {
+  &-bg-image {
+    background-image: url("../../../../images/about-bg.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 25vh;
+    width: 100%;
+    margin-bottom: 6rem;
+  }
+
+  &-container {
+    margin: 0 auto;
+    margin-bottom: 6rem;
+    max-width: $md;
+    padding: $sides-padding-md;
+
+    p:not(:last-child) {
+      margin-bottom: 2rem;
+    }
+  }
+}

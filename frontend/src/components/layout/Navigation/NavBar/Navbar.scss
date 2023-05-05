@@ -50,20 +50,29 @@
     &__link a:active,
     &__link a:hover {
       color: $color-primary-dark;
-      transition: all 0.2s;
+      transition: color 0.5s;
     }
 
     &__link a {
       position: relative;
+      transition: color 0.5s;
     }
   }
 
   .user-icon {
     height: 2.2rem;
     width: 2.8rem;
+    margin: auto 0;
+    line-height: 1;
+    transition: color 0.5s;
 
     &:hover {
       color: $color-primary-dark;
+      transition: color 0.5s;
+    }
+
+    &:visited {
+      color: inherit;
     }
   }
 
@@ -83,10 +92,11 @@
       display: flex;
       align-items: center;
       gap: 1.5rem;
+      transition: color 0.5s;
 
       &:hover {
         color: $color-primary-dark;
-        transition: all 0.2s;
+        transition: color 0.5s;
       }
     }
   }

@@ -1,6 +1,26 @@
+@import "./variables";
+
 body {
   font-family: "Exo", sans-serif;
   font-weight: 400;
   line-height: 1.7;
   font-size: 1.6rem;
+}
+
+.heading-title-1 {
+  line-height: 1;
+  font-size: 3.4rem;
+  font-weight: 500;
+  margin-bottom: 2rem;
+}
+
+.heading-title-2 {
+  font-size: 2.4rem;
+  font-weight: 500;
+  color: $color-primary-dark;
+}
+
+.text-highlight {
+  font-weight: 500;
+  color: $color-black;
 }

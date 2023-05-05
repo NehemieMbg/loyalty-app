@@ -10,3 +10,25 @@ html {
   // Defines what 1rem is.
   font-size: 62.5%; // 1 rem = 10px; 10px/16px = 62.5%
 }
+
+/* Trick: */
+
+.body {
+  min-height: 100vh;
+  margin: 0;
+
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+}
+
+header {
+  grid-row: 1 / 2;
+}
+
+main {
+  grid-row: 2 / 3;
+}
+
+footer {
+  grid-row: 3 / 4;
+}

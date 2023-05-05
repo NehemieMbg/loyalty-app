@@ -1,0 +1,15 @@
+@import "./../../../../../sass/variables";
+
+.development-section {
+  max-width: 149.7rem;
+  margin: 0 auto;
+  margin-bottom: 6rem;
+  padding: 0 5.5rem;
+}
+
+.development-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(35rem, max-content));
+  grid-auto-rows: max-content;
+  gap: 2rem;
+}
