@@ -1,0 +1,26 @@
+@import "../../../../sass/variables";
+
+.arrow-right {
+  height: 2rem;
+  margin-right: 0.8rem;
+  width: 2rem;
+  padding: 0;
+  margin: 0;
+}
+
+.view-all {
+  display: flex;
+  align-items: center;
+
+  &:link,
+  &:visited {
+    color: $color-black;
+    text-decoration: none;
+    transition: all 0.3s;
+  }
+
+  &:hover {
+    color: $color-primary-dark;
+    transition: all 0.3s;
+  }
+}

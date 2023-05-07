@@ -20,7 +20,7 @@ const Menu = (props) => {
         <ul className="menu-visible__list">
           <li className="menu-visible__list-link menu-item menu-item-1">
             <NavLink to={"/collection"} onClick={props.menuHiddenHandler}>
-              Collection
+              Our Cars
             </NavLink>
           </li>
 

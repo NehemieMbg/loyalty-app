@@ -6,6 +6,7 @@
 
 .orders-history__table {
   max-width: $md;
+  margin: 0 auto;
   display: grid;
   grid-template-rows: 4rem auto;
   gap: 2rem;
@@ -63,5 +64,5 @@
 }
 
 .table-data-darken {
-  //   background-color: red;
+  //   background-color: $color-secondary-light;
 }

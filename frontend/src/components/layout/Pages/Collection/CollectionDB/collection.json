@@ -1,0 +1,232 @@
+[
+	{
+		"id": "c1",
+		"make": "Porsche",
+		"model": "Taycan 4S",
+		"year": "2020",
+		"technicalData": {
+			"engine": "Electric",
+			"maxPower": "482 hp (420 kw)",
+			"topSpeed": "250 km/h",
+			"acceleration": "4.0 s",
+			"transmission": "Automatic",
+			"drive": "lhd",
+			"color": "white",
+			"interiorColor": "White"
+		},
+		"price": {
+			"24h": "250€",
+			"5d": "890€",
+			"week-end": "890€",
+			"week": "1490€"
+		},
+		"images": ["https://images.finder.porsche.com/047e2a00-f467-4970-9fa9-079356dc6de6/1280.avif", "https://images.finder.porsche.com/6b0bdc35-e600-44e3-8a27-52c045de2cf2/1920.avif", "https://images.finder.porsche.com/001836c0-e360-4e81-9362-d84a47c06b65/1920.avif","https://images.finder.porsche.com/16b4a59f-75e6-4c8f-b9cf-54ae141ef5d0/1920.avif", "https://images.finder.porsche.com/ad8680ea-f993-49e5-8e02-bec64e2ff8d3/1920.avif"]
+	},
+	{
+		"id": "c2",
+		"make": "Lamborghini",
+		"model": "Aventador SVJ 63 Roadster",
+		"year": "2022",
+		"technicalData": {
+			"engine": "12 Cylinder",
+			"maxPower": "770 hp (574 kw)",
+			"topSpeed": "350 km/h",
+			"acceleration": "2.9 s",
+			"transmission": "Automatic",
+			"drive": "lhd",
+			"color": "Grey",
+			"interiorColor": "Black"
+		},
+		"price": {
+			"24h": "250€",
+			"5d": "890€",
+			"week-end": "890€",
+			"week": "1490€"
+		},
+		"images": ["https://img.jamesedition.com/listing_images/2023/04/18/09/26/23/5d14ce4c-a482-40d0-bea5-079c076e11ba/je/2200xxs.jpg", "https://img.jamesedition.com/listing_images/2023/04/18/09/26/23/d3a5415e-1c66-4562-acfb-137515859c51/je/2200xxs.jpg", "https://img.jamesedition.com/listing_images/2023/04/18/09/26/32/dc5d8b66-b5f3-4d89-a89c-65b3d99866e9/je/2200xxs.jpg", "https://img.jamesedition.com/listing_images/2023/04/18/09/26/23/71e2ca1c-03d1-47ba-91d9-7599aac94683/je/2200xxs.jpg", "https://img.jamesedition.com/listing_images/2023/04/18/09/26/32/332a73d3-c23a-49a3-a6d1-1c49958ce7d0/je/2200xxs.jpg"]
+	},
+	{
+		"id": "c3",
+		"make": "Audi",
+		"model": "RS6",
+		"year": "2022",
+		"technicalData": {
+			"engine": "6 Cylinder",
+			"maxPower": "750 hp (559 kw)",
+			"topSpeed": "280 km/h",
+			"acceleration": "3.6 s",
+			"transmission": "Automatic",
+			"drive": "lhd",
+			"color": "Black",
+			"interiorColor": "Black"
+		},
+		"price": {
+			"24h": "250€",
+			"5d": "890€",
+			"week-end": "890€",
+			"week": "1490€"
+		},
+		"images": ["https://img.jamesedition.com/listing_images/2022/06/10/11/31/48/ddcf2792-a516-4012-aef6-bfeb42695d62/je/2200xxs.jpg", "https://img.jamesedition.com/listing_images/2022/06/10/11/31/47/d48c2213-3c7e-4c55-850e-d285188282fb/je/2200xxs.jpg", "https://img.jamesedition.com/listing_images/2022/06/10/11/31/47/f88fe372-1934-45f9-9b39-1fb13fd16425/je/2200xxs.jpg", "https://img.jamesedition.com/listing_images/2022/06/10/11/31/48/72979135-01fc-40cf-8ef2-1e3f668f1e61/je/2200xxs.jpg", "https://img.jamesedition.com/listing_images/2022/06/10/11/31/48/5ec295f9-5249-4506-9a6b-935c99c1ab7b/je/2200xxs.jpg"]
+	},
+	{
+		"id": "c4",
+		"make": "Audi",
+		"model": "R8",
+		"year": "2021",
+		"technicalData": {
+			"engine": "10 Cylinder",
+			"maxPower": "620 hp (405 kw)",
+			"topSpeed": "250 km/h",
+			"acceleration": "3.7 s",
+			"transmission": "Automatic",
+			"drive": "lhd",
+			"color": "white",
+			"interiorColor": "Black"
+		},
+		"price": {
+			"24h": "250€",
+			"5d": "890€",
+			"week-end": "890€",
+			"week": "1490€"
+		},
+		"images": ["https://img.jamesedition.com/listing_images/2023/04/14/13/09/05/38a824f9-12c5-4c3a-b4cd-9ca910cbe1a6/je/2200xxs.jpg", "https://img.jamesedition.com/listing_images/2023/04/14/13/09/05/0d6988db-94d5-4ee8-b68e-8bcf7cbd8270/je/2200xxs.jpg", "https://img.jamesedition.com/listing_images/2023/04/14/13/09/05/47364b0f-f571-483f-a8a7-e30f7e2d99ae/je/2200xxs.jpg", "https://img.jamesedition.com/listing_images/2023/04/14/13/09/05/c75df942-7a32-4345-913a-575c35a52649/je/2200xxs.jpg", "https://img.jamesedition.com/listing_images/2023/04/14/13/09/05/d80f51dc-0500-4840-9238-b419dbc344a9/je/2200xxs.jpg"]
+	},
+	{
+		"id": "c5",
+		"make": "Mercedes-Benz",
+		"model": "G 63 AMG",
+		"year": "2023",
+		"technicalData": {
+			"engine": "8 Cylinder",
+			"maxPower": "800 PS",
+			"topSpeed": "250 km/h",
+			"acceleration": "4.9 s",
+			"transmission": "Automatic",
+			"drive": "lhd",
+			"color": "Blue",
+			"interiorColor": "White"
+		},
+		"price": {
+			"24h": "250€",
+			"5d": "890€",
+			"week-end": "890€",
+			"week": "1490€"
+		},
+		"images": ["https://img.jamesedition.com/listing_images/2023/04/21/12/19/36/6aa1c4cc-64fa-494b-8d3c-cb53b51e2771/je/2200xxs.jpg", "https://img.jamesedition.com/listing_images/2023/05/03/14/43/22/d0264e11-e3fc-4ada-a4b3-417bac663bf7/je/2200xxs.jpg", "https://img.jamesedition.com/listing_images/2023/05/03/14/43/22/9403755c-af62-4a53-8002-e5c2cb1e962e/je/2200xxs.jpg", "https://img.jamesedition.com/listing_images/2023/05/03/14/43/22/7511519c-3b37-4440-841f-53fd94ba75bc/je/2200xxs.jpg", "https://img.jamesedition.com/listing_images/2023/05/03/14/43/22/bef2ffba-d20f-4d99-a859-7df3defcd06d/je/2200xxs.jpg"]
+	},
+	{
+		"id": "c6",
+		"make": "Mercedes-Benz",
+		"model": "AMG Black Series",
+		"year": "2022",
+		"technicalData": {
+			"engine": "Electric",
+			"maxPower": "730 hp (544 kw)",
+			"topSpeed": "270 km/h",
+			"acceleration": "2.9 s",
+			"transmission": "Automatic",
+			"drive": "lhd",
+			"color": "Silver",
+			"interiorColor": "Black"
+		},
+		"price": {
+			"24h": "250€",
+			"5d": "890€",
+			"week-end": "890€",
+			"week": "1490€"
+		},
+		"images": ["https://img.jamesedition.com/listing_images/2022/05/18/09/44/21/1c26f5e3-1c03-4ed9-8eda-ae45505170ab/je/2200xxs.jpg", "https://img.jamesedition.com/listing_images/2022/05/18/09/44/21/f38393a9-76da-4307-8dce-3c3a898b160b/je/2200xxs.jpg", "https://img.jamesedition.com/listing_images/2022/05/18/09/44/21/d8c0eeb7-9455-4df2-a774-60f4868c88a0/je/2200xxs.jpg", "https://img.jamesedition.com/listing_images/2022/05/18/09/44/21/3aa85fd0-5ba4-411b-bd70-aae985c77f1b/je/2200xxs.jpg", "https://img.jamesedition.com/listing_images/2022/05/18/09/44/21/6c908540-f1e6-4984-9df6-09acc5cfaf58/je/2200xxs.jpg"]
+	},
+	{
+		"id": "c7",
+		"make": "Porsche",
+		"model": "911",
+		"year": "2022",
+		"technicalData": {
+			"engine": "6 Cylinder",
+			"maxPower": "482 hp (420 kw)",
+			"topSpeed": "250 km/h",
+			"acceleration": "4.0 s",
+			"transmission": "Automatic",
+			"drive": "lhd",
+			"color": "Yellow",
+			"interiorColor": "White"
+		},
+		"price": {
+			"24h": "250€",
+			"5d": "890€",
+			"week-end": "890€",
+			"week": "1490€"
+		},
+		"images": ["https://img.jamesedition.com/listing_images/2023/04/21/12/19/36/c5230ea8-2565-4e23-83b8-87d20eb84f22/je/2200xxs.jpg", "https://img.jamesedition.com/listing_images/2023/04/21/12/19/36/61d0fcca-3fd0-4c3e-85d3-8d2ceeaae7e1/je/2200xxs.jpg", "https://img.jamesedition.com/listing_images/2023/04/21/12/19/36/b6cc8aec-a542-4d8c-bdb0-b7a4899c87d6/je/2200xxs.jpg", "https://img.jamesedition.com/listing_images/2023/04/21/12/19/36/6bdd333e-d311-45b5-bb94-ab1f20aefb03/je/2200xxs.jpg", "https://img.jamesedition.com/listing_images/2023/04/21/12/19/36/6e96ed00-207c-4802-a764-6647be75c1b1/je/2200xxs.jpg"]
+	},
+	{
+		"id": "c8",
+		"make": "Aston Martin",
+		"model": "Vantage",
+		"year": "2021",
+		"technicalData": {
+			"engine": "8 Cylinder",
+			"maxPower": "482 hp (420 kw)",
+			"topSpeed": "250 km/h",
+			"acceleration": "4.0 s",
+			"transmission": "Automatic",
+			"drive": "lhd",
+			"color": "Blue",
+			"interiorColor": "Blue"
+		},
+		"price": {
+			"24h": "250€",
+			"5d": "890€",
+			"week-end": "890€",
+			"week": "1490€"
+		},
+		"images": ["https://img.jamesedition.com/listing_images/2023/02/28/16/14/09/409dddab-e34a-453a-8ede-ea01e4f1ef50/je/2200xxs.jpg", "https://img.jamesedition.com/listing_images/2023/02/28/16/14/09/72580d47-13c7-41ae-9d85-7e84cf61ae52/je/2200xxs.jpg", "https://img.jamesedition.com/listing_images/2023/02/28/16/14/09/ec9d72c6-d3d1-4930-8e2d-b8e82476b6f2/je/2200xxs.jpg", "https://img.jamesedition.com/listing_images/2023/02/28/16/14/09/04d87399-d213-44fe-9af9-87c03d787593/je/2200xxs.jpg", "https://img.jamesedition.com/listing_images/2023/02/28/16/14/09/57e24237-5f0a-489b-b014-e1b409e4fc6a/je/2200xxs.jpg"]
+	},
+	{
+		"id": "c9",
+		"make": "BMW",
+		"model": "M4 CS",
+		"year": "2022",
+		"technicalData": {
+			"engine": "6 Cylinder",
+			"maxPower": "551 hp (411 kw)",
+			"topSpeed": "250 km/h",
+			"acceleration": "4.0 s",
+			"transmission": "Automatic",
+			"drive": "lhd",
+			"color": "Grey",
+			"interiorColor": "black"
+		},
+		"price": {
+			"24h": "250€",
+			"5d": "890€",
+			"week-end": "890€",
+			"week": "1490€"
+		},
+		"images": ["https://img.jamesedition.com/listing_images/2023/03/07/12/06/13/5be9586a-c2f8-4004-8943-8426f48bca25/je/2200xxs.jpg", "https://img.jamesedition.com/listing_images/2023/03/02/14/04/43/acd37bcf-d654-4e5e-98c8-7361aab33a99/je/2200xxs.jpg", "https://img.jamesedition.com/listing_images/2023/03/07/12/06/11/29c6c33c-41a9-45f7-acf2-5e8e46c5a85a/je/2200xxs.jpg", "https://img.jamesedition.com/listing_images/2023/03/07/12/06/13/df772f60-f65c-4242-ba26-122d9601fba7/je/2200xxs.jpg", "https://img.jamesedition.com/listing_images/2023/03/02/14/04/43/b8705172-22ae-47de-8508-ea3980273f89/je/2200xxs.jpg"]
+	},
+	{
+		"id": "c10",
+		"make": "Ferrari",
+		"model": " SF90",
+		"year": "2021",
+		"technicalData": {
+			"engine": "8 Cylinder",
+			"maxPower": "990 hp (738 kw)",
+			"topSpeed": "350 km/h",
+			"acceleration": "4.0 s",
+			"transmission": "Automatic",
+			"drive": "lhd",
+			"color": "Grey",
+			"interiorColor": "Black"
+		},
+		"price": {
+			"24h": "250€",
+			"5d": "890€",
+			"week-end": "890€",
+			"week": "1490€"
+		},
+		"images": ["https://img.jamesedition.com/listing_images/2023/03/17/14/03/08/ad3950e4-f599-4335-af62-92174678949d/je/2200xxs.jpg", "https://img.jamesedition.com/listing_images/2023/03/17/14/03/08/59e663e7-d6e8-424e-b3c7-61b0b61152e9/je/2200xxs.jpg", "https://img.jamesedition.com/listing_images/2023/03/17/14/03/08/67969e75-8f22-4430-aa5a-62331fb8a6c2/je/2200xxs.jpg", "https://img.jamesedition.com/listing_images/2023/03/17/14/03/08/314657db-5b14-4455-be72-35f51cd63a6a/je/2200xxs.jpg", "https://img.jamesedition.com/listing_images/2023/03/17/14/03/08/adfe01d1-82c8-4705-ae78-e4e9ae4f56d2/je/2200xxs.jpg"]
+	}
+]

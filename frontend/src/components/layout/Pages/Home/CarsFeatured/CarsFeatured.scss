@@ -1,0 +1,27 @@
+@import "../../../../../sass/variables";
+
+.cars-featured-section {
+  padding: $sides-padding-md;
+  margin-bottom: 6rem;
+}
+
+.cars-featured-container {
+  max-width: $md;
+  margin: 0 auto;
+}
+
+.cars-featured-title {
+  margin: 0;
+}
+
+.heading-and-link {
+  display: grid;
+  margin-bottom: 4rem;
+  grid-template-columns: max-content 1fr max-content;
+  grid-template-rows: max-content;
+  align-items: end;
+}
+
+.view-all-btn {
+  margin-left: auto;
+}

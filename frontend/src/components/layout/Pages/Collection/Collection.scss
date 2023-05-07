@@ -1,0 +1,15 @@
+@import "../../../../sass/variables";
+
+.collection-section {
+  padding: $sides-padding-md;
+  margin: 6rem 0;
+}
+
+.collection-heading {
+  margin-bottom: 4rem;
+}
+
+.collection-container {
+  margin: 0 auto;
+  max-width: $md;
+}

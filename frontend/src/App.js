@@ -10,10 +10,15 @@ import AccountNavigation from "./components/layout/Pages/Account/AcountNavigatio
 import PersonalData from "./components/layout/Pages/Account/Pages/PersonalData/PersonalData";
 import LoginAndSecurity from "./components/layout/Pages/Account/Pages/LoginAndSecurity/LoginAndSecurity";
 import OrderHistory from "./components/layout/Pages/Account/Pages/OrderHistory/OrderHistory";
+import Collection from "./components/layout/Pages/Collection/Collection";
+import CarsFeatured from "./components/layout/Pages/Home/CarsFeatured/CarsFeatured";
+import ScrollToTop from "./Helpers/ScrollToTop";
 
 function App() {
   return (
     <Router>
+      <ScrollToTop />
+
       <div className="body">
         <header>
           <Navbar />
@@ -40,6 +45,13 @@ function App() {
         <main>
           <Routes>
             <Route path="/" element={<Development />} />
+          </Routes>
+
+          <Routes>
+            <Route path="/" element={<CarsFeatured />} />
+          </Routes>
+
+          <Routes>
             <Route path="/about" element={<About />} />
             <Route path="/account/personal-data" element={<PersonalData />} />
             <Route
@@ -47,6 +59,9 @@ function App() {
               element={<LoginAndSecurity />}
             />
             <Route path="/account/order-history" element={<OrderHistory />} />
+          </Routes>
+          <Routes>
+            <Route path="/collection" element={<Collection />} />
           </Routes>
         </main>
 
