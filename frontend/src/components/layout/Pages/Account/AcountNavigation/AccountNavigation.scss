@@ -19,13 +19,14 @@
       justify-items: flex-start;
       text-decoration: none;
       transition: color 0.5s;
+      color: $color-black;
 
       &:visited {
-        color: $color-primary-dark;
+        color: $color-black;
       }
 
       &:hover {
-        // color: $color-primary-dark;
+        color: $color-primary-dark;
         transition: all 0.5s;
       }
     }

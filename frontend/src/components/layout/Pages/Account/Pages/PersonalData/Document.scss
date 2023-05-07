@@ -1,0 +1,14 @@
+@import "../../../../../../sass/variables";
+
+.documents-container {
+  display: grid;
+  gap: 2rem;
+}
+
+.id-card {
+  display: inline-block;
+  width: 18rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

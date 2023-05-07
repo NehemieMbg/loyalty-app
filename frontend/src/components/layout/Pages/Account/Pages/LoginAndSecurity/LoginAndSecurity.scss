@@ -1,0 +1,97 @@
+@import "../../../../../../sass/variables";
+
+.login-and-security-section {
+  padding: $sides-padding-md;
+  // font-size: 1.8rem;
+}
+
+.login-and-security-container {
+  max-width: $md;
+  margin: 0 auto;
+  margin-bottom: 6rem;
+
+  display: grid;
+  grid-template-rows: repeat(auto-fit, max-content);
+  row-gap: 6rem;
+
+  input::-webkit-inner-spin-button,
+  input::-webkit-calendar-picker-indicator {
+    display: none;
+    -webkit-appearance: none;
+  }
+}
+
+.account-settings-container {
+  display: grid;
+  grid-template-columns: /*minmax(max-content, 37rem)*/ 37rem minmax(
+      max-content,
+      61.2rem
+    );
+}
+
+.account-settings__from-group {
+  display: flex;
+  flex-direction: column;
+  // align-items: flex-start;
+
+  input {
+    font-size: 1.8rem;
+    font-family: inherit;
+    padding: 1rem;
+    outline: none;
+    border: 0.1rem solid $color-secondary-light;
+  }
+}
+
+.account-settings__form-content {
+}
+
+.form-btn {
+  font-family: inherit;
+  font-size: 1.8rem;
+  padding: 1.1rem 1.5rem;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.btn-save {
+  background-color: $color-primary-dark;
+  color: $color-white;
+  margin-right: 2rem;
+
+  &:hover {
+    background-color: #295fc8;
+
+    transition: all 0.3s;
+  }
+}
+
+.btn-cancel {
+  border: 0.1rem solid $color-black;
+  background-color: $color-white;
+
+  &:hover {
+    background-color: $color-black;
+    color: $color-white;
+    transition: all 0.3s;
+  }
+}
+
+.form-required__highlight {
+  color: $color-primary-dark;
+}
+
+.forgot-password {
+  text-decoration: none;
+  transition: all 0.3s;
+
+  &:visited {
+    color: $color-black;
+  }
+
+  &:hover {
+    color: $color-primary-dark;
+    transition: all 0.3s;
+  }
+}
