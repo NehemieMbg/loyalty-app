@@ -1,13 +1,27 @@
 import React from "react";
 
 import "./Password.scss";
+import Pen from "../UI/Pen";
+
+const users = require("../Users/users.json");
+const user1 = users[0];
+const userPassword = `${"*".repeat(user1.logs.password.length)}`;
 
 const Password = () => {
   return (
     <div className="account-settings-container">
       <h3 className="heading-title-3 heading-from">Password</h3>
 
-      <form
+      <div className="account-current-information">
+        <p className="fullname">
+          {userPassword ? userPassword : "No name specified"}
+        </p>
+        <button className="edit-form">
+          <Pen className="edit-pen" /> Edit
+        </button>
+      </div>
+
+      {/* <form
         action=""
         method="post"
         className="password-form account-settings-form"
@@ -71,7 +85,7 @@ const Password = () => {
             Forgot password ?
           </a>
         </div>
-      </form>
+      </form> */}
     </div>
   );
 };

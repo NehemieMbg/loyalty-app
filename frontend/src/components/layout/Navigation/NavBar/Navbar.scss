@@ -71,7 +71,8 @@
       transition: color 0.5s;
     }
 
-    &:visited {
+    &:visited,
+    &:link {
       color: inherit;
     }
   }

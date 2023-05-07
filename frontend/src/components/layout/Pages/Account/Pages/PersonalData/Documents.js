@@ -20,7 +20,7 @@ const Documents = () => {
             href={idCard}
             target="_blank"
             rel="noreferrer"
-            className="id-card"
+            className="imported-documents"
             download
           >
             {idCard ? idCard : "No phone number specified"}
@@ -35,7 +35,7 @@ const Documents = () => {
             href={idCard}
             target="_blank"
             rel="noreferrer"
-            className="id-card"
+            className="imported-documents"
             download
           >
             {license ? license : "No phone number specified"}

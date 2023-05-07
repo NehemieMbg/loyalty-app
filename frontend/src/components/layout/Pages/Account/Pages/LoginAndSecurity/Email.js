@@ -1,13 +1,27 @@
 import React from "react";
 
 import "./Email.scss";
+import Pen from "../UI/Pen";
+
+const users = require("../Users/users.json");
+const user1 = users[0];
+const userEmail = user1.logs.email;
 
 const Email = () => {
   return (
     <div className="account-settings-container">
       <h3 className="heading-title-3 heading-from">Email</h3>
 
-      <form
+      <div className="account-current-information">
+        <p className="fullname">
+          {userEmail ? userEmail : "No name specified"}
+        </p>
+        <button className="edit-form">
+          <Pen className="edit-pen" /> Edit
+        </button>
+      </div>
+
+      {/* <form
         action=""
         method="post"
         className="email-form account-settings-form"
@@ -55,7 +69,7 @@ const Email = () => {
             Forgot password ?
           </a>
         </div>
-      </form>
+      </form> */}
     </div>
   );
 };

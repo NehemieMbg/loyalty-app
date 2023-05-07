@@ -1,0 +1,67 @@
+@import "../../../../../../sass/variables";
+
+.orders-history-section {
+  padding: $sides-padding-md;
+}
+
+.orders-history__table {
+  max-width: $md;
+  display: grid;
+  grid-template-rows: 4rem auto;
+  gap: 2rem;
+
+  .orders-history__table-headings {
+    display: grid;
+    grid-template-columns: repeat(5, minmax(20.2rem, 1fr));
+    grid-template-rows: auto;
+    justify-items: start;
+    // gap: 2rem;
+  }
+
+  .orders-history__table-data {
+    display: grid;
+    grid-template-columns: repeat(5, minmax(20.2rem, 1fr));
+    grid-template-rows: auto;
+    justify-items: start;
+
+    // gap: 1rem;
+  }
+
+  &-headings th {
+    font-weight: 500;
+    color: $color-secondary-light;
+  }
+
+  &-data th {
+    font-weight: 300;
+  }
+
+  .table-heading__item-1 {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+  }
+
+  .table-heading__item-2 {
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+  }
+
+  .table-heading__item-3 {
+    grid-column: 3 / 4;
+    grid-row: 1 / 2;
+  }
+
+  .table-heading__item-4 {
+    grid-column: 4 / 5;
+    grid-row: 1 / 2;
+  }
+
+  .table-heading__item-5 {
+    grid-column: 5 / -1;
+    grid-row: 1 / 2;
+  }
+}
+
+.table-data-darken {
+  //   background-color: red;
+}

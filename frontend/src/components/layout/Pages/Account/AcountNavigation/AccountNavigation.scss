@@ -13,21 +13,18 @@
     max-width: 14rem;
     list-style: none;
 
-    a {
+    a:link,
+    a:visited {
       display: flex;
       align-items: center;
       justify-items: flex-start;
       text-decoration: none;
-      transition: color 0.5s;
       color: $color-black;
-
-      &:visited {
-        color: $color-black;
-      }
+      transition: all 0.3s;
 
       &:hover {
         color: $color-primary-dark;
-        transition: all 0.5s;
+        transition: all 0.3s;
       }
     }
   }
@@ -41,7 +38,6 @@
 
     a {
       text-decoration: none;
-      transition: all 0.5s;
 
       &:visited {
         color: inherit;
@@ -49,7 +45,7 @@
 
       &:hover {
         color: $color-primary-dark;
-        transition: all 0.5s;
+        transition: all 0.3s;
       }
     }
   }

@@ -25,6 +25,52 @@
       "logs": {
         "email": "nehemie@gmail.com",
         "password": "password1234"
-      }
+      },
+	  "orders": 
+		[
+			{
+				"purchaseDate": "05/05/2023",
+				"period": {
+					"from" : "06/05/2023",
+					"to" : "13/05/2023"
+				},
+				"car": "Audi rs3",
+				"discount": 0,
+				"totalPrice": 2249
+			},
+			{
+				"purchaseDate": "20/05/2023",
+				"period": {
+					"from" : "30/05/2023",
+					"to" : "23/05/2023"
+				},
+				"car": "VW Golf 8R",
+				"discount": 0,
+				"totalPrice": 890
+			}
+			,
+			{
+				"purchaseDate": "20/05/2023",
+				"period": {
+					"from" : "30/05/2023",
+					"to" : "23/05/2023"
+				},
+				"car": "VW Golf 8R",
+				"discount": 0,
+				"totalPrice": 890
+			}
+			,
+			{
+				"purchaseDate": "20/05/2023",
+				"period": {
+					"from" : "30/05/2023",
+					"to" : "23/05/2023"
+				},
+				"car": "VW Golf 8R",
+				"discount": 0,
+				"totalPrice": 890
+			}
+		]
+	  
     }
 ]
