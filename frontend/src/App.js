@@ -13,6 +13,7 @@ import OrderHistory from "./components/layout/Pages/Account/Pages/OrderHistory/O
 import Collection from "./components/layout/Pages/Collection/Collection";
 import CarsFeatured from "./components/layout/Pages/Home/CarsFeatured/CarsFeatured";
 import ScrollToTop from "./Helpers/ScrollToTop";
+import Car from "./components/layout/Pages/Car/Car";
 
 function App() {
   return (
@@ -62,6 +63,10 @@ function App() {
           </Routes>
           <Routes>
             <Route path="/collection" element={<Collection />} />
+          </Routes>
+
+          <Routes>
+            <Route path="/collection/:id" element={<Car />} />
           </Routes>
         </main>
 

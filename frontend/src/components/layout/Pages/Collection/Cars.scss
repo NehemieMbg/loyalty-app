@@ -50,32 +50,42 @@
     gap: 2rem;
     margin-bottom: 2rem;
 
-    button {
+    a:link {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
       font-family: inherit;
       font-size: 1.6rem;
       font-weight: 500;
-      //   height: 3.8rem;
-      padding: 0.8rem 0;
+      text-decoration: none;
+      height: 4rem;
+      padding: 0 5rem;
       cursor: pointer;
     }
   }
 }
 
-.btn-book {
-  border: none;
+.btn-book:link,
+.btn-book:visited {
   width: 100%;
   color: $color-white;
   margin-left: 2rem;
   background-color: $color-primary-dark;
+  border: 0.2rem solid $color-primary-dark;
+
   transition: all 0.3s;
 
   &:hover {
-    background-color: $color-black;
+    background-color: $color-primary-darkest;
+    border: 0.2rem solid $color-primary-darkest;
+
     transition: all 0.3s;
   }
 }
 
-.btn-more {
+.btn-more:link,
+.btn-more:visited {
   width: 100%;
   margin-right: 2rem;
   background: none;

@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 import "./Cars.scss";
 
@@ -16,8 +17,11 @@ const Cars = (props) => {
               className="collection-list__car-image"
             />
             <div className="collection-list__car-btn">
-              <button className="btn-book">Book</button>
-              <button className="btn-more">Find Out More</button>
+              <Link className="btn-book">Book</Link>
+
+              <Link to={`/collection/${car.id}`} className="btn-more">
+                Find Out More
+              </Link>
             </div>
           </li>
         );
